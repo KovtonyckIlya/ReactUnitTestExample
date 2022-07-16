@@ -1,0 +1,59 @@
+.mainContainer {
+  width: 100%;
+}
+
+.subContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  text-align: center;
+}
+
+.gameHeading {
+  margin-top: 15px;
+  color: white;
+  text-align: center;
+}
+
+.usernameContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.atme {
+  font-weight: bold;
+  font-size: 20px;
+  color:#ffeb3b;
+}
+
+.username {
+  border: none;
+  background: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 2px;
+  padding-right: 0px;
+  margin: 0;
+  font-size: 20px;
+  color: white;
+}
+
+.usernameError {
+  color: orangered;
+}
+
+.version {
+  color: white;
+  padding-top: 5px;
+  padding-left: 5px; 
+}

@@ -1,0 +1,73 @@
+.mainContainer {
+  width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background: #03a9f4;
+  width: 100%;
+  position: relative;
+}
+
+.menuContainer {
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.container {
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+.optionsContainer {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.label {
+  color: #444;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.marginTop {
+  margin-top: 10px;
+}
+
+.button {
+  color: white;
+  background: #03a9f4;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.moveLabel {
+  font-size: 20px;
+  font-weight: bold;
+  color: #444;
+  margin-left: 5px;
+}
+
+.input {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}

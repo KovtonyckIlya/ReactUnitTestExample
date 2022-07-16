@@ -1,0 +1,163 @@
+.chatContainer {
+  width: 100%;
+  background: white;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  position: relative;
+}
+
+.chatContainerMobile {
+  background: white;
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.anotherContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  z-index: 999;
+  background: white;
+  bottom: 0;
+  position: absolute;
+}
+
+.anotherContainerMobile {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  z-index: 999;
+  background: white;
+  bottom: 0;
+  position: fixed;
+}
+
+.subContainer{
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.closeButton {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+  color: #03a9f4; 
+  cursor: pointer;
+}
+
+.sendMessage {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 18px;
+  color: #03a9f4;
+  cursor: pointer;
+}
+
+.chatInput {
+  flex: 1;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+  font-size: 16px;
+  padding: 5px;
+  background: white;
+}
+
+.line {
+  width: 90%;
+  align-self: center;
+  border-bottom: 2px solid #ccc;
+}
+
+.mainMessageContainer {
+  overflow-y: scroll;
+  height: 482px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.mainMessageContainerMobile {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: white;
+}
+
+.scroll {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.messageContainerLeft {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.messageContainerRight {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chatLeft, .chatRight {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  max-width: 70%;
+  margin-top: 2px;
+  border-radius: 10px;
+}
+
+.chatLeft {
+  background: #ccc;
+  color: #444;
+  margin-left: 15px;
+}
+
+.chatRight {
+  background: #03a9f4;
+  color: white;
+  margin-right: 15px;
+}
+
+.playerNameContainer {
+  position: absolute;
+  height: 50px;
+  background: #eaeded;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playerNameContainerMobile {
+  position: fixed;
+  height: 50px;
+  background: #eaeded;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playerName {
+  color: #444;
+  font-size: 20px;
+}
+
+.closeButtonTop {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 16px;
+  color: #03a9f4; 
+  cursor: pointer;
+  position: absolute;
+  left: 5px;
+}

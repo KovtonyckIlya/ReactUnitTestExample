@@ -1,0 +1,26 @@
+.boardContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.boardRow {
+  display: flex;
+  height: 80px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.status {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #444;
+}
+
+.resetButton {
+  padding: 10px;
+  background: #03a9f4;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

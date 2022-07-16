@@ -1,0 +1,131 @@
+.container {
+  background: #03a9f4;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.subContainer {
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+
+.boardContainer {
+  width: 100%;
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.heading {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+.gameId {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.roomName {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.chatButton {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 16px;
+  color: rgb(165, 163, 163);
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.popUpOne {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: #03a9f4;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  z-index: 999;
+  font-weight: bold;
+}
+
+.popUpTwo {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.popUpName {
+  background: #ccc;
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 2px;
+}
+
+.popUpMessage {
+  background: #03a9f4;
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.bottomContainer {
+  display: flex;
+  margin-top: 15px;
+}
+
+.rematch, .leave {
+  color: white;
+  padding: 6px;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.leave {
+  background: orangered;
+}
+
+.rematch {
+  background: #03a9f4;
+  margin-left: 10px;
+}
+
+.version {
+  color: white;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.topContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.options {
+  color: #03a9f4;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  text-decoration: underline;
+  display: inline-block;
+}

@@ -1,0 +1,55 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+  color: #444;
+  font-family: sans-serif;
+  background: white;
+  margin-top: 15px;
+}
+
+.id {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.li {
+  display: flex;
+  padding: 2px;
+  margin-left: 5px;
+}
+
+.roomName {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.value {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.line {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.button {
+  margin-top: 5px;
+  margin-right: 10px;
+  padding: 5px;
+  font-weight: bold;
+  background: #03a9f4;
+  color: white;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.disabled {
+  background: #ccc;
+}

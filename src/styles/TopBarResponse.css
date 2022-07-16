@@ -1,0 +1,33 @@
+.errorContainer {
+  background: rgb(223, 18, 52);
+  width: 100%;
+  color: white;
+  padding: 2px;
+  text-align: center;
+  font-family: sans-serif;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.successContainer {
+  background: #2ECC40;
+  width: 100%;
+  color: white;
+  padding: 2px;
+  text-align: center;
+  font-family: sans-serif;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.message {
+  display: inline;
+}
+
+.dismiss {
+  margin-left: 4px;
+  color: white;
+  display: inline;
+  cursor: pointer;
+  text-decoration: underline;
+}

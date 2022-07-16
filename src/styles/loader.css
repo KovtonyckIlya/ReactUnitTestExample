@@ -1,0 +1,18 @@
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate {
+  animation: spin 1s ease-in-out 0s infinite normal none running;
+}
+
+.loader {
+  width: 25px;
+  height: 25px;
+  border-style: solid;
+  border-left-color: transparent;
+  border-radius: 50%;
+  z-index: 990;
+  transition: border 0.3s;
+}
